@@ -171,7 +171,7 @@ input[type=checkbox]{
 
 @media (min-width: 320px) and (max-width: 480px) {
 	#xLi{
-		width: 5vw;
+		width: 6vw;
 		height: 4vh;
 	}
 }
