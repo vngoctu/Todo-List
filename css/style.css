@@ -1,4 +1,4 @@
-﻿/* Font */
+/* Font */
 @font-face {
 	font-family: Sans-Regular;
 	src: url('../font/SanFranciscoText-Regular.otf'); 
@@ -66,6 +66,17 @@ ul {
 	}
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+	ul {
+		margin-top: 4vh;
+		height: 45vh;
+	}
+	
+	* {
+		font-size: 16px;
+	}
+}
+
 ul li:not(:last-child) {
 	height: 6vh;
 	margin-left: 2vw;
@@ -108,6 +119,14 @@ input[type=checkbox]{
 		margin-top: 1vh;
 		width: 70px;
 		font-size: 14px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	#add {
+		
+		width: 70px;
+		
 	}
 }
 
