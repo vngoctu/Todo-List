@@ -67,7 +67,23 @@ ul {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-	ul {
+	
+	h1 {
+		font-size: 27px;
+	}
+
+	.main {
+		width: 80vw;
+	}
+	
+	* {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  ul {
 		margin-top: 4vh;
 		height: 45vh;
 	}
@@ -75,7 +91,9 @@ ul {
 	* {
 		font-size: 16px;
 	}
+  
 }
+
 
 ul li:not(:last-child) {
 	height: 6vh;
