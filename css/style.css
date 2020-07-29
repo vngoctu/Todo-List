@@ -173,6 +173,7 @@ input[type=checkbox]{
 	#xLi{
 		width: 6vw;
 		height: 4vh;
+		background: red;
 	}
 }
 
@@ -180,6 +181,7 @@ input[type=checkbox]{
 	#xLi{
 		width: 5vw;
 		height: 4vh;
+		background: red;
 	}
 }
 
