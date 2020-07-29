@@ -146,13 +146,20 @@ input[type=checkbox]{
 
 @media (min-width: 768px) and (max-width: 1024px) {
 	#add {
+		width: 70px;
 		
+	}
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	#add {
 		width: 70px;
 		
 	}
 }
 
 #xLi{
+	background: white;
 	border: none;
 	margin: 1vh 0 0 2vw;
 	width: 2vw;
@@ -160,6 +167,13 @@ input[type=checkbox]{
 	float: right;
 	
 	transition: all 0.5s ease, padding 0.8s linear;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	#xLi{
+		width: 5vw;
+		height: 4vh;
+	}
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
